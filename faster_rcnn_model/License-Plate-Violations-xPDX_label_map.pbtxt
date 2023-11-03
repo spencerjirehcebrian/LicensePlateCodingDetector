@@ -1,0 +1,50 @@
+item {
+    name: "fri_coding_0",
+    id: 1,
+    display_name: "fri_coding_0"
+}
+item {
+    name: "fri_coding_9",
+    id: 2,
+    display_name: "fri_coding_9"
+}
+item {
+    name: "mon_coding_1",
+    id: 3,
+    display_name: "mon_coding_1"
+}
+item {
+    name: "mon_coding_2",
+    id: 4,
+    display_name: "mon_coding_2"
+}
+item {
+    name: "thurs_coding_7",
+    id: 5,
+    display_name: "thurs_coding_7"
+}
+item {
+    name: "thurs_coding_8",
+    id: 6,
+    display_name: "thurs_coding_8"
+}
+item {
+    name: "tue_coding_3",
+    id: 7,
+    display_name: "tue_coding_3"
+}
+item {
+    name: "tue_coding_4",
+    id: 8,
+    display_name: "tue_coding_4"
+}
+item {
+    name: "wed_coding_5",
+    id: 9,
+    display_name: "wed_coding_5"
+}
+item {
+    name: "wed_coding_6",
+    id: 10,
+    display_name: "wed_coding_6"
+}
