@@ -122,6 +122,7 @@ def run(file_path, file_name, close_loading, start, stop, update_text):
     )
 
     model_handle = "faster_rcnn_model/saved_model"
+    model_handle = "faster_rcnn_model_license_plate"
 
     update_text("DETECTION STATUS: Loading Model...")
     hub_model = hub.load(model_handle)

@@ -244,8 +244,7 @@ def read_class_names():
     '''
     Raad COCO classes names 
     '''
-    classes = ['fri_coding_0','fri_coding_9','mon_coding_1','mon_coding_2','thurs_coding_7',
-               'thurs_coding_8','tue_coding_3','tue_coding_4','wed_coding_5','wed_coding_6']
+    classes = ['license_plate']
     
     return dict(zip(range(len(classes)), classes))
 
