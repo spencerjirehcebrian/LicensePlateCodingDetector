@@ -81,7 +81,9 @@ def update_text(status):
         status_label.config(text=status)
 
 def close_window():
+    root.quit()
     root.destroy()
+
 
 def confirm_run():
     result = messagebox.askyesno("Confirmation", "Begin the detection?")

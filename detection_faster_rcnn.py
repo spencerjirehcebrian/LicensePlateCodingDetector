@@ -123,7 +123,7 @@ def run(file_path, file_name, close_loading, start, stop, update_text):
 
     model_handle = "faster_rcnn_model/saved_model"
 
-    print("loading model...")
+    update_text("DETECTION STATUS: Loading Model...")
     hub_model = hub.load(model_handle)
     print("model loaded!")
     # Inference on captured video
@@ -139,7 +139,7 @@ def run(file_path, file_name, close_loading, start, stop, update_text):
     save_path = "output_videos/detected_output.avi"
 
     # Compressed video path
-    compressed_path = f"output_videos/{file_name}"
+    compressed_path = f"output_videos/faster_rcnn_{file_name}"
 
     video = VideoFileClip(save_path)
     video.write_videofile(compressed_path, codec="libx264")
