@@ -14,7 +14,7 @@ def run(file_path, file_name, close_loading, start, stop, update_text):
 
     # Define the commands to execute within the yolov7-object-tracking directory
     commands = [
-        f'python run.py --weights ../weights/best_exp4.pt --source "{file_path}" --video_output "{file_name}"',
+        f'python run.py --weights ../weights/best_license_plate.pt --source "{file_path}" --video_output "{file_name}"',
     ]
 
     start()

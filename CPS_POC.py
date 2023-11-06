@@ -167,7 +167,7 @@ def run_model():
         cap = cv2.VideoCapture(file_path)
         cap.set(cv2.CAP_PROP_FPS, desired_frame_rate)
         
-        averages = label_float/global_frame_numbers
+        averages = global_frame_numbers/label_float
         
         average_label.config(text=f"MODEL AVG. DETECTION TIME PER FRAME: {averages:.2f} FPS")
         messagebox.showinfo("Complete", f"Inference Complete at {averages:.2f} FPS")
